@@ -1,0 +1,2 @@
+[console_scripts]
+netgraph-ids = netgraph_ids.cli:main

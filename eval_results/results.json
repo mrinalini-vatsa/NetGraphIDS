@@ -1,0 +1,42 @@
+{
+  "gnn": {
+    "name": "GNN (NetGraph)",
+    "f1_attack": 0.6059479553903345,
+    "precision_attack": 0.4381720430107527,
+    "recall_attack": 0.9819277108433735,
+    "f1_macro": 0.7955478883018647,
+    "accuracy": 0.9713745611666217,
+    "roc_auc": 0.9963187926660602,
+    "avg_precision": 0.9005159174317073,
+    "confusion_matrix": [
+      [
+        21093,
+        627
+      ],
+      [
+        9,
+        489
+      ]
+    ]
+  },
+  "random_forest": {
+    "name": "Random Forest (Flat)",
+    "f1_attack": 0.9962471853890418,
+    "precision_attack": 1.0,
+    "recall_attack": 0.9925224327018943,
+    "f1_macro": 0.9973695965147682,
+    "accuracy": 0.9978485370051635,
+    "roc_auc": 0.999971189934024,
+    "avg_precision": 0.999931245234091,
+    "confusion_matrix": [
+      [
+        4966,
+        0
+      ],
+      [
+        15,
+        1991
+      ]
+    ]
+  }
+}
