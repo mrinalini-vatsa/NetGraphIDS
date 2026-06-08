@@ -1,21 +1,11 @@
-# Data — too large for GitHub
+.venv/
 data/raw/
 data/processed/
-*.parquet
+*.so
+*.pt
 *.csv
-*.pcap
-
-# Python
 __pycache__/
 *.pyc
 *.egg-info/
-.venv/
-dist/
-build/
-
-# Checkpoints — large model files
-checkpoints/*.pt
-
-# IDE
 .DS_Store
-.vscode/
+checkpoints/*.pt
